@@ -3,7 +3,7 @@
 * yarn start or npm start for running the project 
 * For adding new dependancies to the project yarn add reactstrap/yarn add bootstrap
 
-
+**Notes**
 
 
 * A few things that you need to note when you create components in React

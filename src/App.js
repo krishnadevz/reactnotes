@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <Navbar dark color="dark">
         <div className="container">
-          <NavbarBrand href="/">Boostrap In Reactjs</NavbarBrand>
+          <NavbarBrand href="/">Boostrap In Reactjs snippets </NavbarBrand>
         </div>
       </Navbar>
     </div>

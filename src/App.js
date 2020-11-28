@@ -1,8 +1,18 @@
 import './App.css';
 import Menu from './Components/MenuComponent';
-import {Navbar, NavbarBrand} from 'reactstrap';
+import {Form, Navbar, NavbarBrand} from 'reactstrap';
+import React,{Component} from 'react'; 
+import {DISHES,} from "./shared/dishes";
 
-function App() {
+class App extends Component {
+
+constructor(props){
+  super(props);
+  this.state={
+    dishes:DISHES
+  };
+}
+render(){
   return (
     <div>
       <Navbar dark color="dark">
@@ -10,9 +20,9 @@ function App() {
           <NavbarBrand href="/">Boostrap In Reactjs snippets </NavbarBrand>
         </div>
       </Navbar>
-      <Menu/>
+      <Menu dishes={this.state.dishes}/>
     </div>
   );
-}
+}}
 
 export default App;

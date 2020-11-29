@@ -36,3 +36,19 @@ in camel case `onClick`
 
 **Keys and lists**
 * Keys help React identify which items have changed, are added, or are removed. Keys should be given to the elements inside the array to give the elements a stable identity:The best way to pick a key is to use a string that uniquely identifies a list item among its siblings. Most often you would use IDs from your data as keys:
+
+**LifeCycle methods in react**
+* React Component goes through the following lifecycle stages:–Mounting–Updating–Unmounting
+* Called when an instance of a component is being created and inserted into the DOM:
+–constructor()
+–getDerivedStateFromProps()
+–render()
+–componentDidMount()
+* called when a component is being re-rendered–Can be caused by changes to props or state–getDerivedStateFromProps()
+–shouldComponentUpdate()
+–render()
+–getSnapshotBeforeUpdate()
+–componentDidUpdate()
+* Two methods that are now deprecated: componentWillReceiveProps() and componentWillUpdate()
+* Is called when the component is being removed from the DOM:–componentWillUnmount()
+* Error Handling: called when there is an error during rendering, in a lifecycle method or in the constructor of any child component–componentDidCatch()

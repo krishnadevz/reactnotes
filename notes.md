@@ -1,5 +1,5 @@
 **Commands**
-* npx create-react-app reactnotes /*creating a app*/
+* npx create-react-app reactnotes /*creating a app*/ or yarn create react-app my-app
 * yarn start or npm start for running the project 
 * For adding new dependancies to the project yarn add reactstrap/yarn add bootstrap
 

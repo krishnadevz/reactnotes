@@ -53,3 +53,5 @@ in camel case `onClick`
 * Two methods that are now deprecated: componentWillReceiveProps() and componentWillUpdate()
 * Is called when the component is being removed from the DOM:–componentWillUnmount()
 * Error Handling: called when there is an error during rendering, in a lifecycle method or in the constructor of any child component–componentDidCatch()
+* Presentation components in react those are all about the views and UI related stuff.
+* container components are used to making things work maintain states and data sources.

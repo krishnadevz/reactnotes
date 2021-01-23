@@ -55,3 +55,15 @@ in camel case `onClick`
 * Error Handling: called when there is an error during rendering, in a lifecycle method or in the constructor of any child component–componentDidCatch()
 * Presentation components in react those are all about the views and UI related stuff.
 * container components are used to making things work maintain states and data sources.
+
+**Browser DOM and Virtual DOM concept**
+* when change BrowserDOM that changes will be shown in browser `broserDOM is a browser object`.
+* VirtualDOM is a react object
+  - lightweight representation of the browser DOM.
+  - In memory tree data structure of plain JS objects.
+  - manipulates very fast compared to modifying the browser DOM 
+  - created completely from scracth on every setState 
+  - when we change the react code then code rerenders and those changes firstly goes to the virtualDOM(it is a react Object)
+  - react uses diffing algorithm to detect those nodes are changed diffing alogorithm detects those componets are being changes and then modfies the react application. updates the entire subtree if diffing detects the two elements of different types.
+  - using keys we will show or detect those keys are not changed don't rerender that.
+  - diffing algorithm called as a `react-fiber(incremental rendering)`.

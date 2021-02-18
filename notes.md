@@ -67,3 +67,7 @@ in camel case `onClick`
   - react uses diffing algorithm to detect those nodes are changed diffing alogorithm detects those componets are being changes and then modfies the react application. updates the entire subtree if diffing detects the two elements of different types.
   - using keys we will show or detect those keys are not changed don't rerender that.
   - diffing algorithm called as a `react-fiber(incremental rendering)`.
+  
+  **SPA (Single page applications)**
+  * No need to reload single page application.
+  * 
